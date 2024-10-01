@@ -107,6 +107,7 @@ const layoutDict = new Map<Layout, CharacterDict>([
   [Layout.EN_HALMAK, LAYOUT_EN_HALMAK],
   [Layout.EN_HANDS_DOWN_NEU, LAYOUT_EN_HANDS_DOWN_NEU],
   [Layout.EN_JP, LAYOUT_JA_JP_JIS],
+  [Layout.EN_QWERTZ, LAYOUT_DE_DE],
   [Layout.EN_NERPS, LAYOUT_EN_NERPS],
   [Layout.EN_NERPS_MATRIX, LAYOUT_EN_NERPS_MATRIX],
   [Layout.EN_NORMAN, LAYOUT_EN_NORMAN],

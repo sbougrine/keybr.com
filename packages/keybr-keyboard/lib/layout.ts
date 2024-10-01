@@ -171,6 +171,21 @@ export class Layout implements XEnumItem {
       Geometry.JAPANESE_106_FULL,
     ),
   );
+  static readonly EN_QWERTZ = new Layout(
+    /* id= */ "en-qwertz",
+    /* xid= */ 0x13,
+    /* name= */ "QWERTZ_EN",
+    /* family= */ "qwertz",
+    /* language= */ Language.EN,
+    /* emulate= */ false,
+    /* geometries= */ new Enum(
+      Geometry.ISO_102,
+      Geometry.ISO_102_FULL,
+      Geometry.ANSI_101,
+      Geometry.ANSI_101_FULL,
+      Geometry.MATRIX,
+    ),
+  );
   static readonly DE_DE = new Layout(
     /* id= */ "de-de",
     /* xid= */ 0x20,
@@ -974,6 +989,7 @@ export class Layout implements XEnumItem {
     Layout.EN_GRAPHITE,
     Layout.EN_UK,
     Layout.EN_JP,
+    Layout.EN_QWERTZ,
     Layout.EL_GR,
     Layout.CS_CZ,
     Layout.DE_DE,
